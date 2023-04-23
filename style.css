@@ -1,0 +1,73 @@
+
+/*
+https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+background-color: rgb(182, 177, 177);
+*/
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background :url(https://images.unsplash.com/photo-1601987177651-8edfe6c20009?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    font-family: cursive;
+}
+
+.form{
+    background :url(https://plus.unsplash.com/premium_photo-1673730193487-89ae5d321682?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    padding: 20px;/*To bring all the form items inside the form body */
+    box-shadow: 0 4px 8px  rgba(0,0,0,.3); /* horizontal-shadow  ,vertical-shadow, blur-radius ,spread-radius, color of the shadow(color code, transperancy) here the transparency is 0.3 i.e 30% visibile */
+    border-radius:10px;
+    margin:10px;
+}
+
+#question{
+    color:white;
+
+}
+
+.input{
+    display: block;
+    width:100%;
+    box-sizing: border-box;/*To get equal space on both the sides of the input box*/
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border:solid 4px green;/* border-style, border-width*/
+    color:green;
+}
+
+.input::placeholder{
+    color: lightgrey;
+    font-family: cursive;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    display: block;
+    border:none;
+    width: 100%;
+    padding:10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 0px;/*top and buttom margin, left and right margin*/
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.3);
+    cursor: pointer;/*when we put the mouse pointer on the button it will convert into pointer symbol*/
+}
+
+.btn:hover{
+    filter: brightness(.9); /* when point on the button it will become little
+    deemer */
+}
+
+.score{
+    color: green;
+    text-align: right;
+}
